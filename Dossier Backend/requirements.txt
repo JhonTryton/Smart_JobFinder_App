@@ -1,0 +1,8 @@
+Flask
+Flask-JWT-Extended
+Flask-Bcrypt
+Flask-PyMongo
+python-dotenv
+requests
+beautifulsoup4
+Flask-Babel
