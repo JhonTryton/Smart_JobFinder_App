@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Profil</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-indigo-600 text-white py-4 shadow-md">
+        <div class="container mx-auto flex items-center justify-between px-4">
+            <a href="/" class="text-xl font-semibold">
+                <img src="assets/logo.png" alt="Logo" class="h-8 inline align-middle mr-2">
+                Python Jobs
+            </a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="/offres.html" class="hover:text-indigo-200">Offres</a></li>
+                    <li><a href="/candidatures.html" class="hover:text-indigo-200">Mes Candidatures</a></li>
+                    <li><a href="/profil.html" class="hover:text-indigo-200">Profil</a></li>
+                    <li><a href="/connexion.html" class="hover:text-indigo-200">Connexion</a></li>
+                    <li><a href="/inscription.html" class="hover:text-indigo-200">Inscription</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-8 px-4">
+        <h1 class="text-2xl font-bold text-gray-800 mb-6">Mon Profil</h1>
+        <div class="bg-white shadow rounded-md p-6">
+            <form id="profile-form">
+                <div class="mb-4">
+                    <label for="username" class="block text-gray-700 text-sm font-bold mb-2">Nom d'utilisateur :</label>
+                    <input type="text" id="username" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" value="Nom d'utilisateur actuel">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email :</label>
+                    <input type="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" value="email@example.com">
+                </div>
+                <div class="mb-6">
+                    <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Nouveau mot de passe (laisser vide pour ne pas changer) :</label>
+                    <input type="password" id="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="flex items-center justify-between">
+                    <button type="submit" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                        <i class="fas fa-save mr-2"></i> Enregistrer les modifications
+                    </button>
+                    <a href="/deconnexion" class="inline-block align-baseline font-bold text-sm text-indigo-500 hover:text-indigo-800">
+                        Se déconnecter
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div id="loading" class="text-center py-4 hidden">
+            <i class="fas fa-spinner fa-spin fa-2x text-indigo
+              
