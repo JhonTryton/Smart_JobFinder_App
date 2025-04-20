@@ -6,3 +6,8 @@ python-dotenv
 requests
 beautifulsoup4
 Flask-Babel
+email
+smtplib
+# Flask-WTF  # Si tu utilises des formulaires web complexes côté backend
+# openai  # Si tu utilises directement la librairie OpenAI au lieu d'OpenRouter
+# scrapy  # Si tu optes pour Scrapy pour le web scraping
